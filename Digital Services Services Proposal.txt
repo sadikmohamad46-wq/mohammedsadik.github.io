@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Sadik | Digital & IT Services Consultant</title>
+    <style>
+        :root {
+            --primary: #1A365D;
+            --accent: #2B6CB0;
+            --bg: #F7FAFC;
+            --text: #2D3748;
+            --light-bg: #EDF2F7;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--primary);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.25rem;
+            color: #E2E8F0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 1.5rem;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 1.8rem;
+            color: var(--primary);
+            margin-bottom: 2rem;
+            position: relative;
+        }
+
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 3px;
+            background: var(--accent);
+            margin: 0.5rem auto 0;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 4rem;
+        }
+
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border: 1px solid var(--light-bg);
+        }
+
+        .card h3 {
+            color: var(--accent);
+            margin-bottom: 0.75rem;
+        }
+
+        .about {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            margin-bottom: 4rem;
+        }
+
+        .contact-box {
+            text-align: center;
+            background: var(--primary);
+            color: white;
+            padding: 3rem;
+            border-radius: 8px;
+        }
+
+        .contact-box a {
+            color: #63B3ED;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #718096;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mohammed Sadik</h1>
+        <p>Digital Services Consultant & IT Infrastructure Specialist</p>
+    </header>
+
+    <div class="container">
+        
+        <section>
+            <h2 class="section-title">Professional Services</h2>
+            <div class="services-grid">
+                <div class="card">
+                    <h3>Web Design & Development</h3>
+                    <p>Custom layout updates, website maintenance, UI/UX optimizations, and responsive multi-platform setups for digital businesses.</p>
+                </div>
+                <div class="card">
+                    <h3>Digital Marketing Setup</h3>
+                    <p>Social media advertising configuration, campaign management, SEO optimization, and digital promotional content setup.</p>
+                </div>
+                <div class="card">
+                    <h3>Media Asset Configuration</h3>
+                    <p>Optimization of media player integration, server bandwidth setup, SSL configuration, and ongoing technical support.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <h2 class="section-title">About Me</h2>
+            <p>I am an independent digital services consultant providing technical solutions for online businesses. With expertise in web layout customization, media delivery optimization, and server configuration, I help clients structure and maintain their digital presence efficiently.</p>
+        </section>
+
+        <section class="contact-box">
+            <h2>Get In Touch</h2>
+            <p>For service inquiries, ongoing support, or project consultations:</p>
+            <p style="margin-top: 1rem; font-size: 1.2rem;">Email: <a href="mailto:contact@mohammedsadik.cv">contact@mohammedsadik.cv</a></p>
+        </section>
+
+    </div>
+
+    <footer>
+        &copy; 2026 Mohammed Sadik. All rights reserved.
+    </footer>
+
+</body
+</html>
