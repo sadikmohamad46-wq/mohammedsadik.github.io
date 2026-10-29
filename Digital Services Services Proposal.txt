@@ -160,5 +160,5 @@
         &copy; 2026 Mohammed Sadik. All rights reserved.
     </footer>
 
-</body
+</body>
 </html>
